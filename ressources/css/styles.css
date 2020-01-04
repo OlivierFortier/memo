@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana;
+    font-size: 36px;
+    color: #444;
+    background-color: #d5d5d5;
+    padding: 20px;
+}
+
+a, a:visited, a:link, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteneur {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+h1:hover {
+    opacity: 0.9;
+}
+
+input.quoi-faire {
+    width: 99%;
+    padding: 15px;
+    font-size: 36px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 15px 1px #ababab;
+    border: none;
+    margin: 20px 0;
+}
+
+div.filtres {
+    margin-bottom: 0px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 0.5em;
+}
+
+div.filtres a {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #333;
+    color: #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px lightslategrey;
+}
+
+div.filtres a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+ul.liste-taches {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    width: 99%;
+}
+
+ul.liste-taches li {
+    cursor: default;
+    border-bottom: 5px solid #d5d5d5;
+    padding: 20px;
+    position: relative;
+}
+
+ul.liste-taches li:hover {
+    background-color: khaki;
+}
+
+ul.liste-taches li span.coche img {
+    vertical-align: middle;
+    width: 70px;
+}
+
+ul.liste-taches li.accomplie {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+ul.liste-taches li span.ajout {
+    font-size: 0.5em;
+    font-family: Georgia;
+    font-style: italic;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
