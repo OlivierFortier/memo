@@ -105,9 +105,14 @@ ul.liste-taches li span.ajout {
     bottom: 5px;
     right: 5px;
 }
-
 .coche {
     position: absolute;
-    right: 1%;
+    top: 10%;
+    right: 2%;
+}
+
+.done {
+    position: relative;
+    left: 0%;
     top: 10%;
 }

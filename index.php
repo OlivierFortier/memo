@@ -168,7 +168,7 @@ if (isset($_GET["action"]) && $_GET["action"]=="supprimer" && isset($_GET["id"])
                 ?>
 
                 <li class="<?= ($infoTache["accomplie"] === true)?"accomplie":""; ?>">
-                    <span class="coche"><a href="?action=basculer&id=<?= $idTache; ?>" title="Cliquez pour faire basculer l'état de cette tâche."><img src="ressources/images/coche.svg" alt=""></a></span>
+                    <span class="coche done"><a href="?action=basculer&id=<?= $idTache; ?>" title="Cliquez pour faire basculer l'état de cette tâche."><img src="ressources/images/coche.svg" alt=""></a></span>
                     <span class="texte"><?= $infoTache["texte"]; ?></span>
                     <span class="ajout"><?= $infoTache["dateAjout"]; ?></span>
                     <span class="coche"><a href="?action=supprimer&id=<?= $idTache; ?>" title="Cliquez pour supprimer cette tâche."><img src="ressources/images/delete.svg" alt=""></a></span>
