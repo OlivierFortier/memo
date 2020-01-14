@@ -78,7 +78,7 @@ ul.liste-taches {
 ul.liste-taches li {
     cursor: default;
     border-bottom: 5px solid #d5d5d5;
-    padding: 20px;
+    padding: 40px;
     position: relative;
 }
 
@@ -104,4 +104,10 @@ ul.liste-taches li span.ajout {
     position: absolute;
     bottom: 5px;
     right: 5px;
+}
+
+.coche {
+    position: absolute;
+    right: 1%;
+    top: 10%;
 }
